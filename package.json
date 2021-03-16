@@ -5,17 +5,16 @@
   "scripts": {
     "watch:build": "webpack -w",
     "watch:server": "nodemon dist/server.js",
-    "dev": "npm-run-all --parallel watch:*",
-    "start": "node dist/server.js",
-    "dev": "tsc"
+    "dev": "tsc",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.17.11",
-    "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.1",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
     "bootstrap": "^4.6.0",
     "css-loader": "^5.1.1",
     "express": "^4.17.1",
@@ -41,5 +40,6 @@
   "bugs": {
     "url": "https://github.com/gabeaustin/typescript-chirper/issues"
   },
-  "homepage": "https://github.com/gabeaustin/typescript-chirper#readme"
+  "homepage": "https://github.com/gabeaustin/typescript-chirper#readme",
+  "main": "webpack.config.js"
 }
